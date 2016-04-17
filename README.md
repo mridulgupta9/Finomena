@@ -13,5 +13,5 @@ Task for internship
   - To avoid the possibility of over fitting and limited computation power of a Standard 8GB RAM 2 Processor i4 system I have used RBF with degree 3.
   - Model was trained and tested by dividing data in the ratio of 8:2::Training:Testing.
 ```{r, engine='bash', count_lines}
-$ python <filetorun> modelDirectory
+$ python trainTest.py modelDirectory
 ``` 
