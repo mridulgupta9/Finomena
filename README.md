@@ -2,7 +2,7 @@
 Task for internship
 - What's in there?
   - Python script loaddata.py creates and train an SVM model for classification of data
-  - file directory contains the model parameters
+  - Download [model paramteres](https://drive.google.com/folderview?id=0B3O2jAZDpBPPQ3l5aWY4a0FnSE0&usp=sharing)
 - Why SVM?
   - SVM was developed for supervised as well as unsupervised classification.In the task I have used SVM for supervised classification.
 - How did I proceed?
