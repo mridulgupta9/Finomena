@@ -5,8 +5,9 @@ Task for internship
 ```{r, engine='bash', count_lines}
 $ python trainTest.py
 ```
-  - Download [model paramteres](https://drive.google.com/folderview?id=0B3O2jAZDpBPPQ3l5aWY4a0FnSE0&usp=sharing)
+ 
 - How to use?
+  - Download [model paramteres](https://drive.google.com/folderview?id=0B3O2jAZDpBPPQ3l5aWY4a0FnSE0&usp=sharing) and keep all pickle files in current directory.
   - To prepare data, copy your csv file with name test.csv to the current directory where read.py file is present and run the following command.
 ```{r, engine='bash', count_lines}
 $ python read.py
@@ -24,6 +25,4 @@ $ python predict.py
     - RBF with degree 3 - 
   - To avoid the possibility of over fitting and limited computation power of a Standard 8GB RAM 2 Processor i4 system I have used RBF with degree 3.
   - Model was trained and tested by dividing data in the ratio of 8:2::Training:Testing.
-```{r, engine='bash', count_lines}
-$ python trainTest.py modelDirectory
-``` 
+
